@@ -1,5 +1,6 @@
 import { listData } from "../../lib/dummydata"
 import './listPage.scss';
+import Filter from "../../components/filter/filter"
 
 function ListPage(){
     const data = listData;
@@ -8,7 +9,7 @@ function ListPage(){
         <div className='listPage'>
             <div className="listContainer">
                 <div className="wrapper">
-                    
+                    <Filter />
                 </div>
             </div>
             <div className="mapContainer">Map</div>
