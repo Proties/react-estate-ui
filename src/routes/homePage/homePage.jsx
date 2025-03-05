@@ -1,4 +1,6 @@
+import SearchBar from '../../components/search/SearchBar';
 import './homePage.scss'
+
 
 function HomePage(){
     return (
@@ -15,8 +17,22 @@ function HomePage(){
                     regt plus krotiska hemiligt att dit i
                     attefallshus on nel. 
                     </p>
-                </div>
-                
+                    <SearchBar />
+                    <div className="boxes">
+                        <div className="box">
+                            <h1>16+</h1>
+                            <h2>Years of Experince</h2>
+                        </div>
+                        <div className="box">
+                            <h1>200</h1>
+                            <h2>Award Gained</h2>
+                        </div>
+                        <div className="box">
+                            <h1>1200+</h1>
+                            <h2>Property Ready</h2>
+                        </div>
+                    </div>
+                </div>                
             </div>
 
             <div className="imgContainer">
