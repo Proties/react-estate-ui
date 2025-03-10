@@ -1,5 +1,6 @@
 import "./profilePage.scss"
 import List from "../../components/list/list"
+import Chat from "../../components/Chat/chat"
 
 function ProfilePage(){
     return(
@@ -35,7 +36,7 @@ function ProfilePage(){
             </div>
             <div className="chatContainer">
                 <div className="wrapper">
-
+        <Chat/>
                 </div>
             </div>
         </div>
