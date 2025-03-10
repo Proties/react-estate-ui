@@ -1,5 +1,5 @@
 import "./profilePage.scss"
-import List from "../listPage/listPage"
+import List from "../../components/list/list"
 
 function ProfilePage(){
     return(
